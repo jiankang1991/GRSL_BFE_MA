@@ -7,11 +7,11 @@
 This repo contains the codes for the GRSL paper: [Deep Learning-based Building Footprint Extraction with Missing Annotations](). We propose a novel loss function for extracting building footprints based on the training images with missing annotations. The loss includes three terms: 1) logit adjusted cross entropy (LACE) loss, aimed at discriminating between building and background pixels from a long-tailed label distribution; 2) weighted dice loss, aimed at increasing the F1 scores of the predicted building masks; and 3) boundary alignment loss, which is optimized for preserving the fine-grained structure of building boundaries.
 
 <p align="center">
-<img src="./pic/pic1.png" alt="drawing" width="300"/>
+<img src="pic/pic1.png" alt="drawing" width="300"/>
 </p>
 
 <p align="center">
-<img src="./pic/pic2.png" alt="drawing"/>
+<img src="pic/pic2.png" alt="drawing"/>
 </p>
 
 ## Usage
